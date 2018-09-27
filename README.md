@@ -1,5 +1,5 @@
 # lnmp-docker
-搭建docker linp环境 
+搭建docker lnmp环境 
 
 - ``` docker build -t lnmp:v1 .``` 
 

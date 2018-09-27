@@ -15,4 +15,4 @@ RUN mkdir -p /run/php
 VOLUME /var/www
 VOLUME /etc/nginx/sites-enabled
 EXPOSE 80
-CMD ["sh","start.sh"]
+CMD sh start.sh && tail -f start.sh
